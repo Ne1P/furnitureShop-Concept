@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.2"
+   viewBox="0 0 32 30"
+   width="32"
+   height="30"
+   id="svg6"
+   sodipodi:docname="HeartA.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="19.728279"
+     inkscape:cx="13.761971"
+     inkscape:cy="7.6539874"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <style
+     id="style2">.a{fill:#ff547c}</style>
+  <path
+     class="a"
+     d="m23 3c3.3 0 6 2.7 6 6 0 8.8-9.4 15.4-13 17.5-3.6-2.1-13-8.7-13-17.5 0-3.3 2.7-6 6-6 1.8 0 3.5 0.8 4.7 2.2 0.5 0.7 1.4 1.1 2.3 1.1 0.9 0 1.8-0.4 2.3-1.1 1.2-1.4 2.9-2.2 4.7-2.2m0-3c-2.8 0-5.4 1.3-7 3.3-1.7-2-4.2-3.3-7-3.3-5 0-9 4-9 9 0 12 14 20 16 21 2-1 16-9 16-21 0-5-4-9-9-9z"
+     id="path4" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer 1">
+    <path
+       id="rect1109"
+       style="fill:#ff547c;stroke-width:2.68724;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:0"
+       d="M 2.2090533,3.0702379 10.490471,2.4531826 16,6.3 21.813068,2.445386 29.790947,3.0702379 28.511249,19.250611 16,26.5 3.5568662,19.348292 Z"
+       sodipodi:nodetypes="ccccccccc" />
+  </g>
+</svg>

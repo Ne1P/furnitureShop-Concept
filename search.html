@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>O L I O S</title>
+    <link rel="icon" type="image/x-icon" href="./img/icons/favicon.ico">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <!-- Adaptives -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <!-- conect CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/search-style.css" />
+    <!-- Coding type -->
+    <meta charset="UTF-8">
+
+</head>
+<!-- Page body -->
+
+<body>
+    <div class="wrapper">
+        <div class="page">
+            <div class="page__image ibg">
+                <img src="./img/main__bg-1920x1080.png" alt="">
+            </div>
+            <div class="menu">
+                <div class="menu__container">
+                    <a href="./index.html" class="menu__logo">
+                        <img src="./img/LOGO.png" alt="">
+                    </a>
+                    <nav class="menu__nav ">
+                        <a href="./index.html" class="menu__link">
+                            <img src="./img/icons/Home.svg" alt="">
+                        </a>
+                        <a href="./product-list.html" class="menu__link">
+                            <img src="./img/icons/Basket.svg" alt="">
+
+                        </a>
+                        <a href="./search.html" class="menu__link">
+                            <img src="./img/icons/SearchA.svg" alt="">
+                        </a>
+                        <a href="./products-item.html" class="menu__link">
+                            <img src="./img/icons/In.svg" alt="">
+                        </a>
+                    </nav>
+                </div>
+            </div>
+            <div class="burger-btn">
+                <div class="burger-btn__container">
+                    <span></span>
+                </div>
+            </div>
+            <div class="r-board">
+                <div class="r-board__container">
+                    <div class="r-board__categories categories">
+                        <div class="categories__list">
+                            <div class="categories__item">
+                                <a href="">
+                                    <div class="categories__name">
+                                        <span>living room</span>
+                                    </div>
+                                    <div class="categories__img">
+                                        <img src="./img/icons/livingR.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="categories__item">
+                                <a href="">
+                                    <div class="categories__name"><span>office</span></div>
+                                    <div class="categories__img">
+                                        <img src="./img/icons/office.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="categories__item">
+                                <a href="">
+                                    <div class="categories__name"><span>for kids</span></div>
+                                    <div class="categories__img">
+                                        <img src="./img/icons/kidsR.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="categories__item">
+                                <a href="">
+                                    <div class="categories__name"><span>kitchen</span></div>
+                                    <div class="categories__img">
+                                        <img src="./img/icons/kitchen.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="categories__item">
+                                <a href="">
+                                    <div class="categories__name"><span>accesories</span></div>
+                                    <div class="categories__img">
+                                        <img src="./img/icons/accessories.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r-board__categories-all">
+                        <a href="">show all categories</a>
+                    </div>
+                </div>
+            </div>
+            <main class="main">
+                <div class="main__bg"></div>
+                <div class="main__container">
+                    <div class="main__search search">
+                        <form action="">
+                            <button type="reset" class="search__clear">
+                                <img src="./img/icons/Cross.svg" alt=""></button>
+                            <input autocomplete="off" id="brodIt" placeholder="Type product you are looking for"
+                                type="text" class="search__input">
+                            <label class="search__comment" for="brodIt">Type product you are looking for</label>
+                            <button class="search__button" type="submit"> <img src="./img/icons/Search.svg"
+                                    alt=""></button>
+                        </form>
+                    </div>
+                    <div class="main__result result">
+                        <div class="result__items">
+                            <div class="result__item">
+                                <a href="./products-item.html">
+                                    <div class="result__image"><img src="./img/products/whiteSeat.png" alt=""></div>
+                                    <div class="result__title">white seat</div>
+                                </a>
+                            </div>
+                            <div class="result__item">
+                                <a href="">
+                                    <div class="result__image"><img src="./img/products/redSeat.png" alt=""></div>
+                                    <div class="result__title">red seat</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="result__items-counter"> <span>2</span> Searched result</div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/search.js"></script>
+</body>
+
+</html>
